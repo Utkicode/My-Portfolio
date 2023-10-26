@@ -3,6 +3,8 @@ import { CssBaseline, Container, Button, Link } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { lightBlue, teal } from '@mui/material/colors';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Navbar from './Navbar';
+import { Image } from '@mui/icons-material';
 
 function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -22,11 +24,13 @@ function Portfolio() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
+        <Navbar/>
         <Button onClick={toggleTheme}>Toggle Theme</Button>
         <Link href="https://github.com/utkicode" target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
         </Link>
         <h1>My Portfolio</h1>
+        <img src='D:\ReactJs\My-Portfolio\portfolio\src\components\image.jpg'></img>
         <p>Welcome to my portfolio website!</p>
         {/* Add your portfolio content here */}
       </Container>
