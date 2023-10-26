@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { lightBlue, teal } from '@mui/material/colors';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Navbar from './Navbar';
-import { Image } from '@mui/icons-material';
+import image from './image.jpg'
 
 function Portfolio() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,7 +30,7 @@ function Portfolio() {
           <GitHubIcon />
         </Link>
         <h1>My Portfolio</h1>
-        <img src='D:\ReactJs\My-Portfolio\portfolio\src\components\image.jpg'></img>
+        <img src={image} />
         <p>Welcome to my portfolio website!</p>
         {/* Add your portfolio content here */}
       </Container>
