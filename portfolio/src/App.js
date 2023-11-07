@@ -1,14 +1,14 @@
 import './App.css';
-import About from './components/About';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AppRouter from './AppRouter';
+
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <About/>
-      <Footer/>
+      <AppRouter />
+      <Footer />
     </div>
   );
 }

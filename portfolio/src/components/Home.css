@@ -1,0 +1,53 @@
+.container {
+   
+    
+    background-color: rgb(225, 186, 186);
+    
+    
+}
+  .left-section {
+    
+    background-color: lightblue; /* Just for visualization */
+  }
+  
+  .right-section {
+   
+    background-color: lightcoral; /* Just for visualization */
+  }
+  .row-section{
+    background-color: rgb(31, 154, 29);
+   
+  }
+  .tagline{
+    padding-top: 5%;
+    text-align: right;
+    font-size: xx-large;
+  }
+
+  /* Mobile */
+.container {
+    padding: 14px;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .container {
+        padding: 64px;
+    }
+}
+
+.typewriter{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size:  70px;
+    text-align: right;
+   border: 2px;
+   
+}
