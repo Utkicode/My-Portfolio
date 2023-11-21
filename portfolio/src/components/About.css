@@ -1,0 +1,21 @@
+.aboutMe{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.flexbox{
+   margin: 40px;
+}
+.imgDimension{
+    height: 300px;
+    width: 700px;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+.lowerpara{
+    color: #848884;
+    text-align: end;
+}
+.lowerpara2{
+    text-align: end;
+    color:#36454F
+}

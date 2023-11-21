@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css'; // Create a CSS file for your header styles
-import HamburgerMenu from './HamburgerMenu';
+
 
 
 function Header() {
@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <div className={`header ${isSticky ? 'sticky' : ''}`}>
-      <HamburgerMenu/>
+      
       <span className='name'>Rahul Singh</span>
        
         
