@@ -1,33 +1,28 @@
-.container {
-   
-    
-    background-color: rgb(225, 186, 186);
-    
-    
+body {
+  overflow-x: hidden;
 }
-  .left-section {
+.left-section {
     
     background-color: lightblue; /* Just for visualization */
   }
   
-  .right-section {
-   
-    background-color: lightcoral; /* Just for visualization */
-  }
+  
   .row-section{
     background-color: rgb(31, 154, 29);
    
   }
   .tagline{
-    padding-top: 5%;
+    padding-top: 8%;
     text-align: right;
     font-size: xx-large;
   }
 
   /* Mobile */
-.container {
-    padding: 14px;
-}
+  @media (max-width: 599px) {
+    .container {
+      padding: 10px;
+    }
+  }
 
 /* Tablet */
 @media (min-width:600px) {
@@ -48,6 +43,8 @@
     font-weight: bolder;
     font-size:  70px;
     text-align: right;
-   border: 2px;
+    border: 2px;
+    margin-top: 6%;
+    background-color: blue;
    
 }

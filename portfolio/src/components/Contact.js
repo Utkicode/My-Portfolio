@@ -1,13 +1,13 @@
 import React from "react";
 import { Button, Input } from "reactstrap";
-import "./ContactMe.css";
+import "./Contact.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import CallIcon from "@mui/icons-material/Call";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "@mui/material";
-const ContactMe = () => {
+const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" style={{overflowX: 'hidden'}}>
       <h2 style={{ paddingTop: "2%" }}>ContactMe</h2>
       <div style={{ display: "flex" }}>
         <div outline className="container">
@@ -70,4 +70,4 @@ const ContactMe = () => {
   );
 };
  
-export default ContactMe;
+export default Contact;

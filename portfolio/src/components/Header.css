@@ -1,41 +1,42 @@
 .header {
-    background-color: #ef8a8a;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-  }
-  
-  .header.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(255, 251, 251, 0.2);
-    background-color: #ffffff;
-  }
-  
-  .header h1 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  .header ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header ul li {
-    cursor: pointer;
-  }
-  
-.name{
-    color: #0c0c0c;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
-    font-size: large;
-    font-weight: bold;
+  background-color: #ef8a8a;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  z-index: 9999;
 }
-  
+
+.header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(255, 251, 251, 0.2);
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header ul li {
+  cursor: pointer;
+}
+
+.name{
+  color: #0c0c0c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+  font-size: large;
+  font-weight: bold;
+}

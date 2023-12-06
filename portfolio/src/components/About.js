@@ -3,43 +3,35 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div>
+    <div style={{overflowX: 'hidden', height: '90vh', width: '100vw'}}>
       <div>
-        <p className="aboutMe">
-          <span
-            style={{
-              backgroundColor: "aqua",
-              padding: "5px",
-              marginTop: "20px",
-            }}
-          >
-            About me
-          </span>
-        </p>
+         
         <h2>
           <span style={{ fontWeight: "600", fontSize: "2.5rem !important" }}>
             {" "}
+            <center>
             <b style={{ fontFamily: "cursive", fontWeight: "bolder" }}>
               Know Me More
             </b>
+            </center>
           </span>
         </h2>
       </div>
 
       <div className="row flexbox">
         <div className="col">
-          <img className="imgDimension" src="/images/java.jpg" />
+          <img className="imgDimension" src="/images/java.jpg" alt="javaImg" />
         </div>
         <div className="col">
-          <h1 style={{ textAlign: "right" }}>
+          <h1 style={{ textAlign: "right",marginRight: '4%', marginTop : '5%' }}>
             Hi, I'm{" "}
             <b>
-              <u>
-                <i>Callum Smith</i>
+              <u style={{color :'#ef8a8a'}}>
+                <i style={{color :'#ef8a8a'}}>Callum Smith</i>
               </u>
             </b>
           </h1>
-          <p style={{ textAlign: "right", fontSize: "22px", color: "#848884" }}>
+          <p style={{ textAlign: "right", fontSize: "22px", color: "#848884", marginRight: '4%' }}>
             I'm a designer & developer with a passion for web design. I enjoy
             developing simple, clean and slick websites that provide real value
             to the end user. Thousands of clients have procured exceptional
@@ -49,7 +41,7 @@ const About = () => {
         </div>
       </div>
 
-      <div class="row" style={{ paddingRight: "50px" }}>
+      <div class="row" style={{ paddingRight: "50px", marginTop: '8%', marginRight: '4%' }}>
         <div class="col-sm">
           <p className="lowerpara">:From</p>
           <h5 className="lowerpara2">.Los Angeles, USA</h5>

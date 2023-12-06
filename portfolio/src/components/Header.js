@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css'; // Create a CSS file for your header styles
+import Navbar_menu from './AnimatedHamburgerNavbar';
 
 
 
@@ -26,7 +27,7 @@ function Header() {
     <div className={`header ${isSticky ? 'sticky' : ''}`}>
       
       <span className='name'>Rahul Singh</span>
-       
+       <Navbar_menu/>
         
     </div>
   );
