@@ -1,0 +1,13 @@
+.inputBox{
+    border: none;
+    border-bottom: 1px solid #000; /* Set the color of the bottom line */
+    outline: none;
+    padding: 10px; /* Adjust the padding as needed */
+    background: transparent; /* Make the background color transparent */
+    border-radius: 0%;
+    margin-left: auto;
+    width: 550px;
+}
+.spacing{
+    margin-bottom: 40px;
+}

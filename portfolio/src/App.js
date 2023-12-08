@@ -6,6 +6,7 @@ import WhatIdo from "./components/WhatIdo";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <WhatIdo/>
       <Resume/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </div>

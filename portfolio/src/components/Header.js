@@ -26,7 +26,7 @@ function Header() {
   return (
     <div className={`header ${isSticky ? 'sticky' : ''}`}>
       
-      <span className='name'>Rahul Singh</span>
+      <span className='name'>Utkarsh Gupta</span>
        <Navbar_menu/>
         
     </div>
