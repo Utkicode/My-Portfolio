@@ -12,7 +12,7 @@ const Contact = () => {
       className="contact"
       style={{ overflowX: "hidden", backgroundColor: "beige" }}
     >
-      <h2 style={{ paddingTop: "2%" , fontFamily : 'Arial'}}>Contact Me</h2>
+      <h2 style={{ paddingTop: "2%" , fontFamily : 'Arial', textAlign: 'center'}}>Contact Me</h2>
       <div style={{ display: "flex", textAlign: "right" }}>
         <div outline className="container">
           <h2 style={{textAlign: 'right', marginBottom : '5%'}}>Estimate your Project</h2>

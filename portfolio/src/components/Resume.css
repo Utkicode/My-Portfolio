@@ -1,74 +1,50 @@
-/* Style the resume page container */
-.resume-page {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.resume {
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+
+.resume h1 {
+  font-size: 2em;
+}
+
+.resume h2 {
+  font-size: 1.5em;
+}
+
+.resume section {
+  margin-bottom: 2em;
+}
+
+.resume section h3 {
+  font-size: 1.2em;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume li {
+  margin-bottom: 1em;
+}
+
+.resume h4 {
+  font-size: 1em;
+}
+
+.resume h5 {
+  font-size: 0.8em;
+}
+
+.resume p {
+  font-size: 0.8em;
+}
+
+
+@media (max-width: 576px) {
+  .resume {
     width: 100%;
-    margin: 0 auto;
-    padding: 20px;
   }
-  
-  /* Style the education and experience sections */
-  .education,
-  .experience {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: right;
-  }
-  
-  /* Style the headings */
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  /* Style the list items */
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  
-  /* Style the degree, school, and years elements */
-  h3 {
-    font-size: 18px;
-  }
-  
-  h4 {
-    font-size: 16px;
-    font-weight: lighter;
-  }
-  
-  p {
-    font-size: 14px;
-  }
-  
-  /* Style the vertical line between sections */
-  .vertical-line {
-    width: 2px; /* Increase width to 2px */
-    height: 100%;
-    background-color: #ccc;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: -15px; /* Reduce top margin to -15px */
-    margin-bottom: -15px; /* Reduce bottom margin to -15px */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05); /* Add subtle drop shadow effect */
-  
-    /* Adjust circle size and spacing */
-    &:before,
-    &:after {
-      width: 12px; /* Increase width to 12px */
-      height: 12px; /* Increase height to 12px */
-      margin-top: 5px; /* Increase margin-top to 5px */
-    }
-  }
-  
+}
