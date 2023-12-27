@@ -5,7 +5,7 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <div style={{backgroundColor: '#F4F9F4'}}>
-      <h4 style={{textAlign:'center'}}>A Summary to My Resume.</h4>
+      <h4 style={{textAlign:'center', paddingTop:'2%'}}>A Summary to My Resume.</h4>
       <div className="container" >
         <div className="row">
           <div className="col-md-6">

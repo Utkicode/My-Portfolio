@@ -15,7 +15,7 @@ const Home = () => {
         <div className="row row-section">
           <div className="col-md-6 left-section">
             <img
-              src="/images/web.jpg"
+              src={require('./images/home.jpg')}
               style={{ maxWidth: "100%", height: "auto" }}
               alt="img"
             />
