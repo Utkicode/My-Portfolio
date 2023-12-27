@@ -1,5 +1,5 @@
 .header {
-  background-color: #ef8a8a;
+  background-color: #FFDB58;
   color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@
 }
 
 .name{
-  color: #0c0c0c;
+  color: #008080 ;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px;
   font-size: large;

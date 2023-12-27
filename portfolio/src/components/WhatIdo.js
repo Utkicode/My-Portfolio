@@ -22,7 +22,7 @@ const WhatIdo = () => {
     <div style={{backgroundColor: 'beige', maxWwidth: '100vw'}}>
         <div className="container" style={{height: '90vh', width: '100vw', }}>
       <center>
-        <h1>What I Do</h1>
+        <h1 style={{color:'#008080 '}}>What I Do</h1>
       </center>
       <main className="main_content">
       <div className="cards-container">

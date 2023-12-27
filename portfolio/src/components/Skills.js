@@ -1,22 +1,41 @@
-import React from 'react';
-import SkillItem from './SkillItem';
+import React from 'react'
 
 const Skills = () => {
-  const skills = [
-    { name: 'Java', image: 'https://cdn.pixabay.com/photo/2016/08/25/20/43/java-1654096_960_720.png' },
-    { name: 'Python', image: 'https://cdn.pixabay.com/photo/2020/01/30/19/35/python-4897438_960_720.jpg' },
-    { name: 'ReactJS', image: 'https://cdn.pixabay.com/photo/2018/02/27/18/58/react-js-3192581_960_720.png' },
-    { name: 'NodeJS', image: 'https://cdn.pixabay.com/photo/2020/02/09/14/55/node-js-4937759_960_720.png' },
-    { name: 'SpringBoot', image: 'https://cdn.pixabay.com/photo/2017/02/22/19/12/spring-boot-2059821_960_720.png' },
+  
+  const cards = [
+    {
+      title: 'Front-End',
+      content: 'HTML5, CSS3, Javascript, ReactJS, MUI',
+    },
+    {
+      title: 'Back-End',
+      content: 'Java SE, Java EE, SpringBoot, NodeJs, ExpressJs',
+    },
+    {
+      title: 'Database/Cloud',
+      content: 'MongoDB, Mysql, Docker, Git, ',
+    },
   ];
 
-  return (
-    <div className="skills-panel">
-      {skills.map((skill) => (
-        <SkillItem key={skill.name} skill={skill} />
-      ))}
+return (
+<div style={{backgroundColor: '#F4F9F4', maxWwidth: '100vw'}}>
+    <div className="container" style={{height: '90vh', width: '100vw', }}>
+  <center>
+    <h1>Skills</h1>
+  </center>
+  <main className="main_content">
+  <div className="cards-container">
+  {cards.map((card, index) => (
+    <div className="card" key={index}>
+      <h2 >{card.title}</h2>
+      <p>{card.content}</p>
     </div>
-  );
+  ))}
+</div>
+  </main>
+</div>
+</div>
+);
 };
 
-export default Skills;
+export default Skills

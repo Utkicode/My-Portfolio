@@ -10,7 +10,7 @@ const Home = () => {
 
   
   return (
-    <div style={{ backgroundColor: "#ef8a8a", height: "90vh", width: "100vw" }}>
+    <div style={{ backgroundColor: "#FFDB58", height: "90vh", width: "100vw" }}>
       <div className="container">
         <div className="row row-section">
           <div className="col-md-6 left-section">

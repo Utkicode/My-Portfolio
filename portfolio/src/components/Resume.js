@@ -4,10 +4,12 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div className="container" style={{backgroundColor: 'blue'}}>
+    <div style={{backgroundColor: '#F4F9F4'}}>
+      <h4 style={{textAlign:'center'}}>A Summary to My Resume.</h4>
+      <div className="container" >
         <div className="row">
           <div className="col-md-6">
-          <section className="experience" style={{backgroundColor: 'red',marginBottom: '2em'}}>
+          <section className="experience" style={{marginBottom: '2em'}}>
         <h3>Experience</h3>
         <ul>
           <li>
@@ -41,7 +43,7 @@ const Resume = () => {
       </section>
           </div>
           <div className="col-md-6" >
-          <section className="education" style={{backgroundColor: 'green',marginBottom: '2em'}}>
+          <section className="education" style={{marginBottom: '2em'}}>
         <h3>Education</h3>
         <ul>
           <li>
@@ -60,6 +62,7 @@ const Resume = () => {
       </section>
           </div>
         </div>
+    </div>
     </div>
   );
 };

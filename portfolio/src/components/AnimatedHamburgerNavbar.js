@@ -105,6 +105,7 @@ const CloseButton = styled.button`
   font-size: 2rem;
   transition: opacity 0.2s ease-in-out;
   opacity: ${(props) => (props.isOpen ? 1 : 0)};
+  
 `;
 
 function AnimatedHamburgerNavbar() {
