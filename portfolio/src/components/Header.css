@@ -5,6 +5,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  
+  padding-top: 3px;
   transition: background-color 0.3s;
   z-index: 9999;
 }
@@ -15,7 +17,8 @@
   width: 100%;
   box-shadow: 0 2px 5px rgba(255, 251, 251, 0.2);
   background-color: #ffffff;
-  padding-top: 20px;
+  padding-top: 5px;
+  
 }
 
 .header h1 {
@@ -39,4 +42,5 @@
   margin: 10px;
   font-size: large;
   font-weight: bold;
+  
 }

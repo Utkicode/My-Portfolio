@@ -36,7 +36,7 @@ const Home = () => {
           marginRight: "110px",
         }}
       >
-        <Button variant="contained" style={{ marginBottom: "0px" }} >
+        <Button variant="contained" style={{ marginBottom: "0px", marginRight: '200px' }} >
         Contact ME
         </Button>
       </div>
