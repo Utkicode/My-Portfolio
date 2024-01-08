@@ -10,7 +10,7 @@ const Home = () => {
 
   
   return (
-    <div style={{ backgroundColor: "#FFDB58", height: "90vh", width: "100vw" }}>
+    <div style={{ backgroundColor: "#FFDB58", height: "90vh", width: "100vw" }} id="Home">
       <div className="container">
         <div className="row row-section">
           <div className="col-md-6 left-section">
@@ -36,9 +36,10 @@ const Home = () => {
           marginRight: "110px",
         }}
       >
-        <Button variant="contained" style={{ marginBottom: "0px", marginRight: '200px' }} >
+        <a href="#Contact"><Button variant="contained" style={{ marginBottom: "0px", marginRight: '200px' }} >
         Contact ME
-        </Button>
+        </Button></a>
+        
       </div>
     </div>
   );

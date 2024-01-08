@@ -4,7 +4,7 @@ import "./Resume.css";
 
 const Resume = () => {
   return (
-    <div style={{backgroundColor: '#F4F9F4'}}>
+    <div style={{backgroundColor: '#F4F9F4'}} id="Skills">
       <h4 style={{textAlign:'center', paddingTop:'2%'}}>A Summary to My Resume.</h4>
       <div className="container" >
         <div className="row">

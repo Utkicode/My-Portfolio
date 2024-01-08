@@ -19,7 +19,7 @@ const WhatIdo = () => {
       ];
     
   return (
-    <div style={{backgroundColor: 'beige', maxWwidth: '100vw'}}>
+    <div style={{backgroundColor: 'beige', maxWwidth: '100vw'}} id='whatIdo'>
         <div className="container" style={{height: '90vh', width: '100vw', }}>
       <center>
         <h1 style={{color:'#008080 '}}>What I Do</h1>

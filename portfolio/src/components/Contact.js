@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact" style={{ overflowX: "hidden", backgroundColor: "beige" }}>
+    <div className="contact" style={{ overflowX: "hidden", backgroundColor: "beige" }} id="Contact">
       <h2 style={{ paddingTop: "2%", fontFamily: "Arial", textAlign: "center" }}>Contact Me</h2>
       <div style={{ display: "flex", textAlign: "right" }}>
         <div outline className="container">

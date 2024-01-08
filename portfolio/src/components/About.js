@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div style={{ overflowX: "hidden", height: "90vh", width: "100vw", backgroundColor:'#F4F9F4' }}>
+    <div style={{ overflowX: "hidden", height: "90vh", width: "100vw", backgroundColor:'#F4F9F4' }} id="About">
       <div>
         <h2>
           <span style={{ fontWeight: "600", fontSize: "2.5rem !important" }}>
