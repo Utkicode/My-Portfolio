@@ -28,7 +28,7 @@ function Header() {
       
       
       <span className='name'><a href="#Home" style={{color:'rgb(0, 128, 128)', textDecoration: 'none', fontSize: '30px'}} >Utkarsh Gupta</a></span>
-      <p style={{alignItems:'right'}}>
+      <p style={{alignItems:'right', marginLeft: '65%',paddingTop: '26px', fontWeight: 'bold'}}>
             <CallIcon fontSize="medium" />
             &nbsp;&nbsp; (+91) 90122 36502
           </p>
