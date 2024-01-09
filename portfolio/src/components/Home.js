@@ -36,7 +36,7 @@ const Home = () => {
           marginRight: "110px",
         }}
       >
-        <a href="#Contact"><Button variant="contained" style={{ marginBottom: "0px", marginRight: '200px' }} >
+        <a href="#Contact"><Button className="hoverButton" variant="contained" style={{ marginBottom: "0px", backgroundColor: "rgb(0, 128, 128)",   }} >
         Contact ME
         </Button></a>
         

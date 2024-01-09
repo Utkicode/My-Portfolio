@@ -37,10 +37,10 @@
 }
 
 .name{
-  color: #008080 ;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 128, 128); ;
   margin: 10px;
-  font-size: large;
+  font-size: larger;
   font-weight: bold;
+  font-family: "Lucida Handwriting", cursive;
   
 }

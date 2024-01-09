@@ -31,7 +31,7 @@ const About = () => {
             Hi, I'm{" "}
             <b>
               <u style={{ color: "#008080 " }}>
-                <i style={{ color: "#008080 " }}>Callum Smith</i>
+                <i style={{ color: "#008080 " }}>Utkarsh Gupta</i>
               </u>
             </b>
           </h1>
@@ -58,7 +58,7 @@ const About = () => {
       >
         <div class="col-sm">
           <p className="lowerpara">:From</p>
-          <h5 className="lowerpara2">.Los Angeles, USA</h5>
+          <h5 className="lowerpara2">.Gurugram, India</h5>
         </div>
         <div class="col-sm">
           <p className="lowerpara">:Date of birth</p>
@@ -66,11 +66,11 @@ const About = () => {
         </div>
         <div class="col-sm">
           <p className="lowerpara">:Email</p>
-          <h5 className="lowerpara2">chat@callum.com</h5>
+          <h5 className="lowerpara2">Utkarshgupta2255@gmail.com</h5>
         </div>
         <div class="col-sm">
           <p className="lowerpara">:Name</p>
-          <h5 className="lowerpara2">.Callum Smith</h5>
+          <h5 className="lowerpara2">.Utkarsh Gupta</h5>
         </div>
       </div>
     </div>

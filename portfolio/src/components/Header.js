@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css'; // Create a CSS file for your header styles
 import Navbar_menu from './AnimatedHamburgerNavbar';
-
+import CallIcon from "@mui/icons-material/Call";
 
 
 function Header() {
@@ -26,7 +26,12 @@ function Header() {
   return (
     <div className={`header ${isSticky ? 'sticky' : ''}`}>
       
-      <span className='name'>Utkarsh Gupta</span>
+      
+      <span className='name'><a href="#Home" style={{color:'rgb(0, 128, 128)', textDecoration: 'none', fontSize: '30px'}} >Utkarsh Gupta</a></span>
+      <p style={{alignItems:'right'}}>
+            <CallIcon fontSize="medium" />
+            &nbsp;&nbsp; (+91) 90122 36502
+          </p>
        <Navbar_menu/>
        
     </div>
