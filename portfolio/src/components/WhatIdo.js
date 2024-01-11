@@ -14,7 +14,7 @@ const WhatIdo = () => {
         },
         {
           title: 'UI/UX Design',
-          content: 'Donec eget elit non mi semper egestas. Sed non quam in odio congue hendrerit. Praesent eget diam eget libero egestas mattis sit amet vitae augue. Nullam quis risus eget urna mollis ornare.',
+          content: ' I specialize in creating sophisticated digital experiences that seamlessly blend artistry with functionality. Leveraging a deep understanding of user behavior and employing cutting-edge technologies, I craft intuitive interfaces that prioritize user satisfaction.',
         },
       ];
     

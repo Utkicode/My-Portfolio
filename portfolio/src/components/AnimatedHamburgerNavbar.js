@@ -4,6 +4,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "@mui/material";
 import { useEffect } from 'react';
+import GoogleCloudLogo from "./googlecloud.svg";
+
 
 const Container = styled.div`
   position: fixed;
@@ -25,7 +27,7 @@ const Nav = styled.nav`
   transform: translate(-50%, -50%);
   width: 80%;
   height: 80%;
-  background-color: #E5E4E2;
+  background-color: #F3F8FF;
   border-radius: none;
   padding: 2rem;
   display: flex;
@@ -49,7 +51,7 @@ const Nav = styled.nav`
         transition: color 0.3s ease-in-out;
 
         &:hover {
-          color: blue; /* Change the color to your desired hover color */
+          color: green; /* Change the color to your desired hover color */
         }
       }
 
@@ -191,22 +193,29 @@ function AnimatedHamburgerNavbar() {
           <li><a href="#Home" onClick={() => closeMenu()}>Home</a></li>
           <li><a href="#About" onClick={() => closeMenu()}>About</a></li>
           <li><a href="#whatIdo" onClick={() => closeMenu()}>whatIdo</a></li>
-          <li><a href="#Skills" onClick={() => closeMenu()}>Skills</a></li>
+          <li><a href="#skills" onClick={() => closeMenu()}>Skills</a></li>
           <li><a href="#Contact" onClick={() => closeMenu()}>Contact</a></li>
           
         </ul>
-        <div style={{display:'flex', backgroundColor:'red', paddingTop: '15px'}}>
+        <div style={{display:'flex',  paddingTop: '15px'}}>
         <Link
           href="https://github.com/utkicode"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GitHubIcon fontSize="large" />
+          <GitHubIcon fontSize="large" style={{ color: 'black' }} />
+
         </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Link href= "https://www.linkedin.com/in/utkarsh-gupta-b17a44192/" target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon fontSize="large" />
+            <LinkedInIcon fontSize= "large" />
           </Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+  <Link href="https://www.cloudskillsboost.google/public_profiles/b64beb0e-2487-4b07-a08b-f03c0210c67e" target="_blank" rel="noopener noreferrer">
+    <img src={GoogleCloudLogo} alt="Google Cloud Logo" style={{ width: '40px', height: '40px' }} />
+  </Link>
+          
         </div>
       </Nav>
       

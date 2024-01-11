@@ -9,9 +9,9 @@ const About = () => {
           <span style={{ fontWeight: "600", fontSize: "2.5rem !important" }}>
             {" "}
             <center>
-              <b style={{ fontFamily: "cursive", fontWeight: "bolder" }}>
+              <p style={{ fontFamily: 'Poppins, sans-serif',  fontSize: '40px'}}>
                 Know Me More
-              </b>
+              </p>
             </center>
           </span>
         </h2>
@@ -60,10 +60,10 @@ const About = () => {
           <p className="lowerpara">:From</p>
           <h5 className="lowerpara2">.Gurugram, India</h5>
         </div>
-        <div class="col-sm">
+        {/* <div class="col-sm">
           <p className="lowerpara">:Date of birth</p>
           <h5 className="lowerpara2">November, 1987 11</h5>
-        </div>
+        </div> */}
         <div class="col-sm">
           <p className="lowerpara">:Email</p>
           <h5 className="lowerpara2">Utkarshgupta2255@gmail.com</h5>

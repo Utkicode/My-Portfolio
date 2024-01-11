@@ -16,6 +16,19 @@ const Skills = () => {
     },
   ];
 
+  const cardStyle = {
+    backgroundColor: '#FFDB58',
+    color: '#fff',
+    transition: 'transform 0.3s',
+  };
+
+  const listItemStyle = {
+    color: '#fff',
+    width: '150px',
+    transition: 'color 0.3s',
+    cursor: 'pointer',
+  };
+
   return (
     <div style={{ backgroundColor: '#F4F9F4', maxWidth: '100vw' }}>
       <div className="container" style={{ height: '90vh', width: '100vw' }}>
@@ -25,20 +38,19 @@ const Skills = () => {
         <main className="main_content">
           <div className="cards-container">
             {cards.map((card, index) => (
-              <div className="card" key={index} style={{ backgroundColor: '#71797E', color: '#fff' }}>
-                <h2 style={{ textAlign: 'center', color: 'black' }}>{card.title}</h2>
+              <div
+                className="card"
+                key={index}
+                style={{ ...cardStyle, ':hover': { transform: 'scale(1.05)' } }}
+              >
+                <h2 style={{ textAlign: 'center', color: '#332941' }}>{card.title}</h2>
                 <ul style={{ textAlign: 'left', paddingLeft: '20px', paddingTop: '15px' }}>
                   {card.content.map((item, itemIndex) => (
                     <li
                       key={itemIndex}
-                      style={{
-                        color: '#fff',
-                        width: '150px',
-                        transition: 'color 0.3s',
-                        cursor: 'pointer',
-                      }}
-                      onMouseOver={(e) => (e.target.style.color = '#FFD700')}
-                      onMouseOut={(e) => (e.target.style.color = '#fff')}
+                      style={listItemStyle}
+                      onMouseOver={(e) => (e.target.style.color = 'brown')}
+                      onMouseOut={(e) => (e.target.style.color = '#0F1035')}
                     >
                       {item}
                     </li>

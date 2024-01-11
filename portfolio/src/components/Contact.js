@@ -5,6 +5,9 @@ import CallIcon from "@mui/icons-material/Call";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "@mui/material";
 import axios from "axios";
+import GoogleCloudLogo from "./googlecloud.svg";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -38,10 +41,12 @@ const Contact = () => {
       // Clear the form data after successful submission
       setFormData({ name: "", subject: "", message: "" });
 
-      // You can handle success here (e.g., show a success message)
+      // Show success notification
+      toast.success('Message sent successfully!');
     } catch (error) {
       console.error("Error sending the form data:", error);
       // You can handle errors here (e.g., show an error message)
+      toast.error('Error sending the form data');
     }
   };
 
@@ -60,7 +65,6 @@ const Contact = () => {
             <Input
               type="text"
               style={{border: 'none', borderBottom: '1px solid #000', borderRadius: '0px',  marginLeft: 'auto',  padding: '5px',width: '550px', background: 'transparent'}}
-              
               name="name"
               value={formData.name}
               onChange={handleChange}
@@ -115,14 +119,20 @@ const Contact = () => {
             &nbsp;&nbsp; (+91) 90122 36502
           </p>
           <Link href="https://github.com/utkicode" target="_blank" rel="noopener noreferrer">
-            <GitHubIcon fontSize="large" />
+          <GitHubIcon fontSize="large" style={{ color: 'black' }} />
+
           </Link>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Link href="https://github.com/utkicode" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon fontSize="large" />
           </Link>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <Link href="https://www.cloudskillsboost.google/public_profiles/b64beb0e-2487-4b07-a08b-f03c0210c67e" target="_blank" rel="noopener noreferrer">
+            <img src={GoogleCloudLogo} alt="Google Cloud Logo" style={{ width: '40px', height: '40px' }} />
+          </Link>
         </div>
       </div>
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} newestOnTop closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover />
     </div>
   );
 };
