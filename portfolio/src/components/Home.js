@@ -21,7 +21,7 @@ const Home = () => {
             />
           </div>
           <div className="col-md-6 right-section">
-            <h3 className="tagline">HI, I'M A FREELANCER</h3>
+            <h3 className="taglinehome">HI, I'M A FREELANCER</h3>
             <span className="typewriter">
               <Typewriter />
             </span>
